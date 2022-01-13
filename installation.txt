@@ -1,8 +1,10 @@
 back
 https://github.com/getarrays/employeemanager
+https://github.com/fgsuperman/employeemanager.git
 
 front
 https://github.com/getarrays/employeemanagerapp
+https://github.com/fgsuperman/employeemanagerapp.git
 
 sudo lsof -i -P -n | grep LISTEN
 ‐------------
@@ -13,7 +15,7 @@ Lancement du Front:
 • npm install -g @angular/cli
 
 2) clone du frontend et config
-• git clone https://github.com/getarrays/employeemanagerapp.git
+• git clone https://github.com/fgsuperman/employeemanagerapp.git
 • cd employeemanagerapp
 • cd src/environments/
 • nano environment.ts
@@ -26,7 +28,9 @@ Lancement du Front:
 
 ouvrire l appli ds un navigateur
 localhost:4200
+
 ---------------------
+
 Lancement du back
 1) installation mysql
 • sudo apt install mysql-server
@@ -39,7 +43,7 @@ mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'l
 mysql> FLUSH PRIVILEGES;
 
 2) projet java
-[  ] git clone https://github.com/getarrays/employeemanager.git
+[  ] git clone https://github.com/fgsuperman/employeemanager.git
 [  ] cd employeemanager
 [  ] mvn clean package -DskipTests
 [  ] cd target
